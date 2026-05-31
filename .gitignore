@@ -1,2 +1,4 @@
 .venv/
 *.test
+README copy.md
+00 import model YOLO11n.py
