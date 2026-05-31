@@ -1,3 +1,17 @@
+## 1. Create and activate a new virtual environment
+py -3.10 -m venv ".venv"
+& ".venv\Scripts\Activate.ps1"
+## 2. Update all dependencies by running the following commands in Powershell:
+python -m pip install --upgrade pip
+## 3. Install next python lib:
+
+
+
+
+
+pip freeze > requirements.txt
+
+
 # Qualcomm QCS6490 Windows Setup Guide
 
 This repository contains notes, setup instructions, and development resources for working with **Qualcomm Dragonwing™ QCS6490/QCM6490** platforms running **Windows on Arm (WoA)**.
