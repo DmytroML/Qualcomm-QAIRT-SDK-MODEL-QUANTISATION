@@ -7,6 +7,7 @@ python -m pip install --upgrade pip
 ## 3. Install next python lib:
 pip install ultralytics==8.4.58
             onnx==1.21.0
+            onnxruntime==1.23.2
 
             
 
