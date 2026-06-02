@@ -1,6 +1,7 @@
 .venv/
 .vscode/
 models/
+datasets/
 # Python cache
 src/__pycache__/
 __pycache__/
