@@ -8,12 +8,28 @@ python -m pip install --upgrade pip
 pip install ultralytics==8.4.58
             onnx==1.21.0
             onnxruntime==1.23.2
-## 
+## 4. [Qualcomm SDK Installation](https://docs.qualcomm.com/doc/80-63442-10/topic/windows_setup.html#step-1-install-qualcomm-ai-engine-direct-aka-the-qnn-sdk)
+
 download (https://softwarecenter.qualcomm.com/catalog/item/Qualcomm_AI_Runtime_Community?osArch=Any&osType=All&version=2.47.0.260601)
+
+
+
+
+
+https://docs.qualcomm.com/doc/80-63442-10/topic/windows_setup.html#step-1-install-qualcomm-ai-engine-direct-aka-the-qnn-sdk
+
 
 [text] by default did use https://ultralytics.com/assets/coco128.zip dataset      
 
 
 
+## Qualcomm SDK Installation
+
+### Qualcomm Software Center
+
+1. Sign in to Qualcomm Developer Portal.
+2. Open Qualcomm Software Center.
+3. Download SDK packages available for your board.
+4. Install required components.
 
 pip freeze > requirements.txt
