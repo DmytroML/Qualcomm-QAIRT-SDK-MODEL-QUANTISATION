@@ -1,5 +1,6 @@
 .venv/
 .vscode/
+.vscode
 models/
 datasets/
 calibration_data.txt
