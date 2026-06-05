@@ -1,3 +1,17 @@
+# QAIRT Model Quantization Toolkit
+
+A practical toolkit and step-by-step guide for quantizing ONNX models
+for Qualcomm® AI Runtime (QAIRT) and deploying them on Qualcomm NPUs.
+
+Supported:
+- ONNX models
+- INT8 quantization
+- Per-channel quantization
+- Windows
+- Linux +-
+- QCS6490
+
+
 # Setup environment
 ## 1. Create and activate a new virtual environment
 ```bash
