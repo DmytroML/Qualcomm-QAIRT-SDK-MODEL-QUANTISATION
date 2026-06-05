@@ -29,11 +29,10 @@ Supported:
 | Windows 11 | ✅ |
 
 ## Quick Start
-
 ### 1. Download QAIRT SDK
-
+```bash
 wget https://softwarecenter.qualcomm.com/api/download/software/sdks/Qualcomm_AI_Runtime_Community/All/2.47.0.260601/v2.47.0.260601.zip
-
+```
 ### 2. Install dependencies
 
 ```bash
@@ -49,8 +48,33 @@ Unblock-File ./v2.47.0.260601/qairt/2.47.0.260601/bin/envsetup.ps1
 
 python.exe main.py --default
 ```
+## Example Output
 
+Original model size:
+12.4 MB
 
+Quantized model size:
+3.3 MB
+
+Reduction:
+73%
+
+Backend:
+HTP (NPU)
+
+Precision:
+INT8
+
+## FAQ
+
+### ERROR: WindowsFileIO couldn't open libcdsprpc.dll
+
+Windows host cannot access DSP libraries.
+DSP execution is available only on supported Qualcomm devices.
+
+### Why is INT4 not available?
+
+Current QAIRT public releases primarily target INT8 deployment.
 
 
 # Setup environment
