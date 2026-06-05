@@ -1,3 +1,9 @@
+## Deployment Pipeline
+
+<p align="center">
+  <img src="docs/qairt_pipeline.gif" width="900">
+</p>
+
 # QAIRT Model Quantization Toolkit
 
 A practical toolkit and step-by-step guide for quantizing ONNX models
