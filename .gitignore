@@ -6,8 +6,8 @@ datasets/
 calibration_data.txt
 v2.47.0.260601.zip
 v2.47.0.260601/
-
-
+src/qairt/
+src/qti/
 # Python cache
 src/__pycache__/
 __pycache__/

@@ -4,3 +4,4 @@
 # Try 3
 #from qairt.api.compiler.config_util import HtpGraphConfig
 
+import qairt
